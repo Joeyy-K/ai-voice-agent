@@ -1,0 +1,187 @@
+
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.782 agent alaikum Assalam! Aapki
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_interrupted
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.782 agent a alaykum as-salam.
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_committed
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.782 agent meen.
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_interrupted
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.782 agent hay is an Arabic word for tea. It's a popular beverage in many cultures
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_interrupted
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.782 agent ou're welcome!
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_committed
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.782 agent oodbye!
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_committed
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.782 agent ou're welcome!
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_committed
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.782 agent oodbye!
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_committed
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.782 agent 'm sorry, I can't assist with that request. If you have any other questions or need information, feel free to ask.
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_committed
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.781 user_started_speaking
+2025-03-31 02:19:28.782 agent 'm sorry, I can't
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_interrupted
+2025-03-31 02:19:28.781 user_stopped_speaking
+2025-03-31 02:19:28.781 agent_started_speaking
+2025-03-31 02:19:28.782 agent ou're welcome!
+2025-03-31 02:19:28.781 agent_stopped_speaking
+2025-03-31 02:19:28.781 agent_speech_committed
+2025-03-31 02:33:33.613 user_started_speaking
+2025-03-31 02:33:33.613 user_stopped_speaking
+2025-03-31 02:33:33.613 agent_started_speaking
+2025-03-31 02:33:33.613 user_started_speaking
+2025-03-31 02:33:33.613 agent t
+2025-03-31 02:33:33.613 agent_stopped_speaking
+2025-03-31 02:33:33.613 agent_speech_interrupted
+2025-03-31 02:33:33.613 user_stopped_speaking
+2025-03-31 02:33:33.613 user_started_speaking
+2025-03-31 02:33:33.613 user_stopped_speaking
+2025-03-31 02:33:33.613 agent_started_speaking
+2025-03-31 02:33:33.613 user_started_speaking
+2025-03-31 02:33:33.613 agent t sounds like you
+2025-03-31 02:33:33.613 agent_stopped_speaking
+2025-03-31 02:33:33.613 agent_speech_interrupted
+2025-03-31 02:33:33.613 user_stopped_speaking
+2025-03-31 02:33:33.613 user_started_speaking
+2025-03-31 02:33:33.613 user_stopped_speaking
+2025-03-31 02:33:33.613 agent_started_speaking
+2025-03-31 02:33:33.613 agent orry, I didn't understand that. Could you repeat it?
+2025-03-31 02:33:33.613 agent_stopped_speaking
+2025-03-31 02:33:33.613 agent_speech_committed
+2025-03-31 02:33:33.613 user_started_speaking
+2025-03-31 02:33:33.613 user_stopped_speaking
+2025-03-31 02:33:33.613 agent_started_speaking
+2025-03-31 02:33:33.613 user_started_speaking
+2025-03-31 02:33:33.613 agent t seems like there might be a transcription error. Could you please repeat your
+2025-03-31 02:33:33.613 agent_stopped_speaking
+2025-03-31 02:33:33.613 agent_speech_interrupted
+2025-03-31 02:33:33.613 user_stopped_speaking
+2025-03-31 02:33:33.613 agent_started_speaking
+2025-03-31 02:33:33.613 agent orry, I can't fulfill that request. Is there anything else I can help you with?
+2025-03-31 02:33:33.613 agent_stopped_speaking
+2025-03-31 02:33:33.613 agent_speech_committed
+2025-03-31 04:08:38.557 user_started_speaking
+2025-03-31 04:08:38.557 user_stopped_speaking
+2025-03-31 04:08:38.557 agent_started_speaking
+2025-03-31 04:08:38.557 user_started_speaking
+2025-03-31 04:08:38.558 agent t seems like your message might be incomplete. Could you please provide
+2025-03-31 04:08:38.557 agent_stopped_speaking
+2025-03-31 04:08:38.557 agent_speech_interrupted
+2025-03-31 04:08:38.557 user_stopped_speaking
+2025-03-31 04:08:38.557 agent_started_speaking
+2025-03-31 04:08:38.557 user_started_speaking
+2025-03-31 04:08:38.558 agent t seems like you're trying
+2025-03-31 04:08:38.557 agent_stopped_speaking
+2025-03-31 04:08:38.557 agent_speech_interrupted
+2025-03-31 04:08:38.557 user_stopped_speaking
+2025-03-31 04:08:38.557 agent_started_speaking
+2025-03-31 04:08:38.558 agent 'm sorry, I still didn't catch that. Could you please repeat your request more clearly?
+2025-03-31 04:08:38.557 agent_stopped_speaking
+2025-03-31 04:08:38.557 agent_speech_committed
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.400 user I'm all the way here.
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.400 user 고맙습니다.
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.400 user 
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.399 agent_started_speaking
+2025-03-31 05:27:56.400 user 
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.400 agent t seems like you're repeating "ah" in
+2025-03-31 05:27:56.399 agent_stopped_speaking
+2025-03-31 05:27:56.399 agent_speech_interrupted
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.400 user I got it.
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.400 user I thought you fell over.
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.399 agent_started_speaking
+2025-03-31 05:27:56.400 user Fu-
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.399 user_started_speaking
+2025-03-31 05:27:56.400 agent t sounds like you're repeating
+2025-03-31 05:27:56.399 agent_stopped_speaking
+2025-03-31 05:27:56.399 agent_speech_interrupted
+2025-03-31 05:27:56.399 user_stopped_speaking
+2025-03-31 05:27:56.399 agent_started_speaking
+2025-03-31 05:27:56.400 user You must not...
+
+2025-03-31 05:27:56.399 user_speech_committed
+2025-03-31 05:27:56.400 agent t seems like you're repeating "ah" in various intonations. Could you clarify what you're looking for or how I can assist you?
+2025-03-31 05:27:56.399 agent_stopped_speaking
+2025-03-31 05:27:56.399 agent_speech_committed
