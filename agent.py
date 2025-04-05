@@ -43,6 +43,8 @@ class TranscriptionLog:
     """transcription of speech"""
     time: str = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
     """time the event is recorded"""
+    sequence: int = 0
+    """sequence number to ensure correct ordering when timestamps are identical"""
 
 class ConversationPersistor(utils.EventEmitter[EventTypes]):
     def __init__(
@@ -78,6 +80,9 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
         self._agent_transcriptions = []
         self._events = []
         self._call_metadata = {}  # Store call-specific metadata like room ID, duration, etc.
+        
+        # Conversation counter for ensuring correct ordering
+        self._transcript_counter = 0
 
         # Queue for async logging
         self._log_q = asyncio.Queue[Union[EventLog, TranscriptionLog, None]]()
@@ -211,19 +216,33 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
                 worksheet.append_row(["Transcriptions", "", ""])
                 worksheet.append_row(["Time", "Role", "Content"])
                 
-                # Combine and sort all transcriptions by time
+                # Combine all transcriptions chronologically
                 all_transcriptions = []
                 for t in self._user_transcriptions:
-                    all_transcriptions.append([t.time, t.role, t.transcription])
+                    # Use sequence number for sorting if timestamps are identical
+                    all_transcriptions.append({
+                        'time': t.time,
+                        'role': t.role,
+                        'content': t.transcription,
+                        'sequence': getattr(t, 'sequence', 0)  # Use sequence if available
+                    })
                 for t in self._agent_transcriptions:
-                    all_transcriptions.append([t.time, t.role, t.transcription])
+                    all_transcriptions.append({
+                        'time': t.time,
+                        'role': t.role,
+                        'content': t.transcription,
+                        'sequence': getattr(t, 'sequence', 0)  # Use sequence if available
+                    })
                 
-                # Sort by time
-                all_transcriptions.sort(key=lambda x: x[0])
+                # Sort primarily by time, secondarily by sequence number
+                all_transcriptions.sort(key=lambda x: (x['time'], x['sequence']))
+                
+                # Format for sheet
+                sorted_transcriptions = [[t['time'], t['role'], t['content']] for t in all_transcriptions]
                 
                 # Add transcription data
-                if all_transcriptions:
-                    worksheet.append_rows(all_transcriptions)
+                if sorted_transcriptions:
+                    worksheet.append_rows(sorted_transcriptions)
                 
                 # Add events if not transcriptions_only
                 if not self._transcriptions_only and self._events:
@@ -232,6 +251,8 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
                     worksheet.append_row(["Time", "Event", ""])
                     
                     event_rows = [[e.time, e.eventname, ""] for e in self._events]
+                    # Sort events by time
+                    event_rows.sort(key=lambda x: x[0])
                     worksheet.append_rows(event_rows)
                 
                 return f"Data exported to Google Sheets, worksheet: Call_{call_id}"
@@ -241,6 +262,7 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
             
         except Exception as e:
             logging.error(f"Failed to export to Google Sheets: {e}")
+
 
     def start(self) -> None:
         """Start the persistor and register event handlers for the agent"""
@@ -266,9 +288,12 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
         @self._model.on("agent_stopped_speaking")
         def _agent_stopped_speaking():
             # Log the agent's transcription when they stop talking
+            self._transcript_counter += 1
             transcription = TranscriptionLog(
                 role="agent",
                 transcription=(self._model._playing_handle._tr_fwd.played_text)[1:],
+                time=datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3],
+                sequence=self._transcript_counter  # Add sequence number
             )
             self._log_q.put_nowait(transcription)
 
@@ -277,9 +302,13 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
 
         @self._model.on("user_speech_committed")
         def _user_speech_committed(user_msg: str):  
-            # Log what the user said
+            # Log what the user said with current timestamp
+            self._transcript_counter += 1
             transcription = TranscriptionLog(
-                role="user", transcription=user_msg  
+                role="user", 
+                transcription=user_msg,
+                time=datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3],
+                sequence=self._transcript_counter  # Add sequence number
             )
             self._log_q.put_nowait(transcription)
 
@@ -340,19 +369,24 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
             worksheet.append_row(["Transcriptions", "", ""])
             worksheet.append_row(["Time", "Role", "Content"])
             
-            # Combine and sort all transcriptions by time
+            # Combine all transcriptions and parse timestamps for proper sorting
             all_transcriptions = []
             for t in self._user_transcriptions:
-                all_transcriptions.append([t.time, t.role, t.transcription])
+                dt = datetime.strptime(t.time, "%Y-%m-%d %H:%M:%S.%f")
+                all_transcriptions.append([dt, t.time, t.role, t.transcription])
             for t in self._agent_transcriptions:
-                all_transcriptions.append([t.time, t.role, t.transcription])
+                dt = datetime.strptime(t.time, "%Y-%m-%d %H:%M:%S.%f")
+                all_transcriptions.append([dt, t.time, t.role, t.transcription])
             
-            # Sort by time
+            # Sort by timestamp
             all_transcriptions.sort(key=lambda x: x[0])
             
+            # Remove the datetime object used for sorting
+            sorted_transcriptions = [[t[1], t[2], t[3]] for t in all_transcriptions]
+            
             # Add transcription data
-            if all_transcriptions:
-                worksheet.append_rows(all_transcriptions)
+            if sorted_transcriptions:
+                worksheet.append_rows(sorted_transcriptions)
             
             # Add events if not transcriptions_only
             if not self._transcriptions_only and self._events:
@@ -360,7 +394,14 @@ class ConversationPersistor(utils.EventEmitter[EventTypes]):
                 worksheet.append_row(["Events", "", ""])
                 worksheet.append_row(["Time", "Event", ""])
                 
-                event_rows = [[e.time, e.eventname, ""] for e in self._events]
+                # Sort events by time
+                sorted_events = []
+                for e in self._events:
+                    dt = datetime.strptime(e.time, "%Y-%m-%d %H:%M:%S.%f")
+                    sorted_events.append([dt, e.time, e.eventname])
+                
+                sorted_events.sort(key=lambda x: x[0])
+                event_rows = [[e[1], e[2], ""] for e in sorted_events]
                 worksheet.append_rows(event_rows)
             
             logging.info(f"Data exported to Google Sheets, worksheet: Call_{call_id}")

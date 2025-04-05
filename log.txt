@@ -185,3 +185,451 @@
 2025-03-31 05:27:56.400 agent t seems like you're repeating "ah" in various intonations. Could you clarify what you're looking for or how I can assist you?
 2025-03-31 05:27:56.399 agent_stopped_speaking
 2025-03-31 05:27:56.399 agent_speech_committed
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.702 user You
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 agent_started_speaking
+2025-04-05 04:28:55.702 agent ello! How can I assist you today?
+2025-04-05 04:28:55.701 agent_stopped_speaking
+2025-04-05 04:28:55.701 agent_speech_committed
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.702 user Stop it.
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.701 agent_started_speaking
+2025-04-05 04:28:55.702 user Bye.
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.702 agent 'm sorry, I didn't catch that. Could you please repeat your request?
+2025-04-05 04:28:55.701 agent_stopped_speaking
+2025-04-05 04:28:55.701 agent_speech_committed
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.702 user Please read the post.
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.701 agent_started_speaking
+2025-04-05 04:28:55.702 user Watch Request.
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.702 agent ure, I can help with that. What do you need information on, or what can I
+2025-04-05 04:28:55.701 agent_stopped_speaking
+2025-04-05 04:28:55.701 agent_speech_interrupted
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.702 user or not.
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.702 user 
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.702 user Then,
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.702 user So
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 agent_started_speaking
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.702 agent t seems like you're having trouble hearing me, or there might be a misunderstanding. Could you
+2025-04-05 04:28:55.701 agent_stopped_speaking
+2025-04-05 04:28:55.701 agent_speech_interrupted
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.701 agent_started_speaking
+2025-04-05 04:28:55.702 user 
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.701 user_started_speaking
+2025-04-05 04:28:55.702 agent  didn't understand that.
+2025-04-05 04:28:55.701 agent_stopped_speaking
+2025-04-05 04:28:55.701 agent_speech_interrupted
+2025-04-05 04:28:55.701 user_stopped_speaking
+2025-04-05 04:28:55.701 agent_started_speaking
+2025-04-05 04:28:55.702 user Just a thought.
+
+2025-04-05 04:28:55.701 user_speech_committed
+2025-04-05 04:28:55.702 agent t seems like there might be a misunderstanding. I'm here to help with any questions or information you need. How can I assist you?
+2025-04-05 04:28:55.701 agent_stopped_speaking
+2025-04-05 04:28:55.701 agent_speech_committed
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 user MMMM
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 agent t seems like there was no specific
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_interrupted
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user No specific question.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 agent he circumference of a circle is calculated using the formula \( C = 2\pi r \), where \( C \) is the circumference and \( r \) is
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_interrupted
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user Bye.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 user insan gratis.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 agent t
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_interrupted
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user Have a seat.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 agent t seems like
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_interrupted
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 user And that's basically all I have to say at this point.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user Bye.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 agent 'm sorry, I'm unable to identify speakers from voice samples. Is there anything else I can help you with?
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_committed
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user Elseth
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 agent he letter 'S' is
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_interrupted
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 user Glitter ass is the-
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 user Ain't.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 agent he letter "S" is the 19th letter of the English alphabet.
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_committed
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 user Letter.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 user_stopped_speaking
+2025-04-05 04:30:24.628 agent_started_speaking
+2025-04-05 04:30:24.628 user Alphabet.
+
+2025-04-05 04:30:24.628 user_speech_committed
+2025-04-05 04:30:24.628 user_started_speaking
+2025-04-05 04:30:24.628 agent he letter "S" is the 19th letter of the English
+2025-04-05 04:30:24.628 agent_stopped_speaking
+2025-04-05 04:30:24.628 agent_speech_interrupted
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 agent_started_speaking
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 agent_started_speaking
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 agent_started_speaking
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 agent_started_speaking
+2025-04-05 04:46:17.961 user_started_speaking
+2025-04-05 04:46:17.961 user_stopped_speaking
+2025-04-05 04:46:17.961 agent_started_speaking
+2025-04-05 04:51:41.483 user_started_speaking
+2025-04-05 04:51:41.483 user_stopped_speaking
+2025-04-05 04:51:41.483 user_started_speaking
+2025-04-05 04:51:41.483 user_stopped_speaking
+2025-04-05 04:51:41.483 user_started_speaking
+2025-04-05 04:51:53.584 user I'm such a girl
+
+2025-04-05 04:51:41.483 user_speech_committed
+2025-04-05 04:51:41.483 user_stopped_speaking
+2025-04-05 04:51:41.483 agent_started_speaking
+2025-04-05 04:51:54.765 user 
+
+2025-04-05 04:51:41.483 user_speech_committed
+2025-04-05 04:51:55.384 user 
+
+2025-04-05 04:51:41.483 user_speech_committed
+2025-04-05 04:52:04.081 agent t sounds like you're near a construction site, as I can hear the noise of machinery or equipment. Is there something specific you need help with that's related to this environment?
+2025-04-05 04:51:41.483 agent_stopped_speaking
+2025-04-05 04:51:41.483 agent_speech_committed
+2025-04-05 04:52:59.165 user_started_speaking
+2025-04-05 04:52:59.165 user_stopped_speaking
+2025-04-05 04:52:59.165 agent_started_speaking
+2025-04-05 04:53:42.522 user So.
+
+2025-04-05 04:52:59.165 user_speech_committed
+2025-04-05 04:53:47.571 agent t seems like your message got cut off. Could you please repeat or provide more information on what you'd like to discuss?
+2025-04-05 04:52:59.165 agent_stopped_speaking
+2025-04-05 04:52:59.165 agent_speech_committed
+2025-04-05 04:52:59.165 user_started_speaking
+2025-04-05 04:52:59.165 user_stopped_speaking
+2025-04-05 04:53:50.169 user It's not.
+
+2025-04-05 04:52:59.165 user_speech_committed
+2025-04-05 04:52:59.165 agent_started_speaking
+2025-04-05 04:54:00.862 agent t seems like there's been a misunderstanding. Could you please repeat your question or provide more details? I'm here to help with any information or guidance you need.
+2025-04-05 04:52:59.165 agent_stopped_speaking
+2025-04-05 04:52:59.165 agent_speech_committed
+2025-04-05 04:52:59.165 user_started_speaking
+2025-04-05 04:52:59.165 user_stopped_speaking
+2025-04-05 04:52:59.165 agent_started_speaking
+2025-04-05 04:54:16.627 user Thank you. Thank you. 
+
+2025-04-05 04:52:59.165 user_speech_committed
+2025-04-05 04:52:59.165 user_started_speaking
+2025-04-05 04:54:21.426 agent t looks like your message is not clear. Could you please provide more context or
+2025-04-05 04:52:59.165 agent_stopped_speaking
+2025-04-05 04:52:59.165 agent_speech_interrupted
+2025-04-05 04:52:59.165 user_stopped_speaking
+2025-04-05 04:54:24.245 user Exactly. I see the details.
+
+2025-04-05 04:52:59.165 user_speech_committed
+2025-04-05 04:52:59.165 agent_started_speaking
+2025-04-05 04:52:59.165 user_started_speaking
+2025-04-05 04:54:25.521 agent ure, I'm here to
+2025-04-05 04:52:59.165 agent_stopped_speaking
+2025-04-05 04:52:59.165 agent_speech_interrupted
+2025-04-05 04:52:59.165 user_stopped_speaking
+2025-04-05 04:54:26.704 user Yep.
+
+2025-04-05 04:52:59.165 user_speech_committed
+2025-04-05 04:52:59.165 agent_started_speaking
+2025-04-05 04:52:59.165 user_started_speaking
+2025-04-05 04:54:29.835 agent t looks like your message got cut off. Could
+2025-04-05 04:52:59.165 agent_stopped_speaking
+2025-04-05 04:52:59.165 agent_speech_interrupted
+2025-04-05 04:52:59.165 user_stopped_speaking
+2025-04-05 04:52:59.165 agent_started_speaking
+2025-04-05 04:52:59.165 user_started_speaking
+2025-04-05 04:54:32.025 agent ould
+2025-04-05 04:52:59.165 agent_stopped_speaking
+2025-04-05 04:52:59.165 agent_speech_interrupted
+2025-04-05 04:54:32.429 user quite a weird message.
+
+2025-04-05 04:52:59.165 user_speech_committed
+2025-04-05 04:52:59.165 user_stopped_speaking
+2025-04-05 04:54:33.205 user That's
+
+2025-04-05 04:52:59.165 user_speech_committed
+2025-04-05 04:52:59.165 agent_started_speaking
+2025-04-05 04:54:41.880 agent t looks like your message got cut off again. Could you please try rephrasing or ask your question in a different way? I'm here to assist you.
+2025-04-05 04:52:59.165 agent_stopped_speaking
+2025-04-05 04:52:59.165 agent_speech_committed
+2025-04-06 00:51:04.007 user_started_speaking
+2025-04-06 00:51:04.007 user_stopped_speaking
+2025-04-06 00:51:04.007 agent_started_speaking
+2025-04-06 00:51:27.432 user Thank you.
+
+2025-04-06 00:51:04.007 user_speech_committed
+2025-04-06 00:51:29.431 agent ola! ¿En qué puedo ayudarte hoy?
+2025-04-06 00:51:04.007 agent_stopped_speaking
+2025-04-06 00:51:04.007 agent_speech_committed
+2025-04-06 00:51:04.007 user_started_speaking
+2025-04-06 00:51:04.007 user_stopped_speaking
+2025-04-06 00:51:04.007 agent_started_speaking
+2025-04-06 00:51:38.006 user I don't know who's saying it.
+
+2025-04-06 00:51:04.007 user_speech_committed
+2025-04-06 00:51:04.007 user_started_speaking
+2025-04-06 00:51:38.641 agent e suis désolé, mais je ne
+2025-04-06 00:51:04.007 agent_stopped_speaking
+2025-04-06 00:51:04.007 agent_speech_interrupted
+2025-04-06 00:51:04.007 user_stopped_speaking
+2025-04-06 00:51:04.007 agent_started_speaking
+2025-04-06 00:51:40.065 user That's it.
+
+2025-04-06 00:51:04.007 user_speech_committed
+2025-04-06 00:51:04.007 user_started_speaking
+2025-04-06 00:51:40.081 agent laro
+2025-04-06 00:51:04.007 agent_stopped_speaking
+2025-04-06 00:51:04.007 agent_speech_interrupted
+2025-04-06 00:51:04.007 user_stopped_speaking
+2025-04-06 00:51:04.007 agent_started_speaking
+2025-04-06 00:51:41.455 user Bye.
+
+2025-04-06 00:51:04.007 user_speech_committed
+2025-04-06 00:51:04.007 user_started_speaking
+2025-04-06 00:51:43.693 agent arece que podría haber un error
+2025-04-06 00:51:04.007 agent_stopped_speaking
+2025-04-06 00:51:04.007 agent_speech_interrupted
+2025-04-06 00:51:04.007 user_stopped_speaking
+2025-04-06 00:51:04.007 agent_started_speaking
+2025-04-06 00:51:44.629 user Bye.
+
+2025-04-06 00:51:04.007 user_speech_committed
+2025-04-06 00:51:46.829 agent Entendido! ¿En qué puedo ayudarte?
+2025-04-06 00:51:04.007 agent_stopped_speaking
+2025-04-06 00:51:04.007 agent_speech_committed
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 agent_started_speaking
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:56:26.287 agent 'm sorry, I'm
+2025-04-06 00:55:59.966 agent_stopped_speaking
+2025-04-06 00:55:59.966 agent_speech_interrupted
+2025-04-06 00:56:26.730 user 
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:56:27.448 user You
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:56:29.100 user You
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:56:30.560 user dan lain-lain.
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:56:31.535 user 육식맨 마음이 고기고기
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 agent_started_speaking
+2025-04-06 00:56:35.311 user Bye-bye.
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:56:44.263 agent t seems like you might be trying to communicate something, but I'm not quite sure what you mean. Could you please provide more context or clarify your question?
+2025-04-06 00:55:59.966 agent_stopped_speaking
+2025-04-06 00:55:59.966 agent_speech_committed
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 agent_started_speaking
+2025-04-06 00:56:47.778 user Thank you. Thank you. 
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:56:49.276 agent 'm sorry, but I cannot
+2025-04-06 00:55:59.966 agent_stopped_speaking
+2025-04-06 00:55:59.966 agent_speech_interrupted
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:56:50.475 user Bye.
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:55:59.966 agent_started_speaking
+2025-04-06 00:56:55.394 agent o need to apologize! I'm here to help. What can I assist you with today?
+2025-04-06 00:55:59.966 agent_stopped_speaking
+2025-04-06 00:55:59.966 agent_speech_committed
+2025-04-06 00:55:59.966 user_started_speaking
+2025-04-06 00:55:59.966 user_stopped_speaking
+2025-04-06 00:55:59.966 agent_started_speaking
+2025-04-06 00:57:04.775 user Hmm
+
+2025-04-06 00:55:59.966 user_speech_committed
+2025-04-06 00:57:07.348 agent ello! How can I assist you today?
+2025-04-06 00:55:59.966 agent_stopped_speaking
+2025-04-06 00:55:59.966 agent_speech_committed
+2025-04-06 01:11:56.022 user_started_speaking
+2025-04-06 01:11:56.022 user_stopped_speaking
+2025-04-06 01:11:56.022 agent_started_speaking
+2025-04-06 01:12:42.127 user Grey's Anatomy.
+
+2025-04-06 01:11:56.022 user_speech_committed
+2025-04-06 01:12:43.350 agent ello! How can I help you today?
+2025-04-06 01:11:56.022 agent_stopped_speaking
+2025-04-06 01:11:56.022 agent_speech_committed
+2025-04-06 01:11:56.022 user_started_speaking
+2025-04-06 01:11:56.022 user_stopped_speaking
+2025-04-06 01:13:05.101 user あたしなぁ
+
+2025-04-06 01:11:56.022 user_speech_committed
+2025-04-06 01:11:56.022 agent_started_speaking
+2025-04-06 01:13:11.673 agent t seems like you didn't finish your question. Could you please provide more details or ask your question again? I'm here to help!
+2025-04-06 01:11:56.022 agent_stopped_speaking
+2025-04-06 01:11:56.022 agent_speech_committed
+2025-04-06 01:11:56.022 user_started_speaking
+2025-04-06 01:11:56.022 user_stopped_speaking
+2025-04-06 01:13:43.293 user Sleep.
+
+2025-04-06 01:11:56.022 user_speech_committed
+2025-04-06 01:11:56.022 agent_started_speaking
+2025-04-06 01:13:50.547 agent 'm sorry, I didn't quite catch that. Could you please repeat your question or let me know how I can assist you?
+2025-04-06 01:11:56.022 agent_stopped_speaking
+2025-04-06 01:11:56.022 agent_speech_committed
+2025-04-06 01:21:13.199 user_started_speaking
+2025-04-06 01:21:13.199 user_stopped_speaking
+2025-04-06 01:21:13.199 agent_started_speaking
+2025-04-06 01:21:26.243 user 
+
+2025-04-06 01:21:13.199 user_speech_committed
+2025-04-06 01:21:33.335 agent 'm unable to identify voices or recognize who is speaking from audio clips. Is there anything else I can help you with?
+2025-04-06 01:21:13.199 agent_stopped_speaking
+2025-04-06 01:21:13.199 agent_speech_committed
+2025-04-06 01:21:13.199 user_started_speaking
+2025-04-06 01:21:13.199 user_stopped_speaking
+2025-04-06 01:21:13.199 agent_started_speaking
+2025-04-06 01:21:41.183 user Bye.
+
+2025-04-06 01:21:13.199 user_speech_committed
+2025-04-06 01:21:13.199 user_started_speaking
+2025-04-06 01:21:42.415 agent 'm sorry, I
+2025-04-06 01:21:13.199 agent_stopped_speaking
+2025-04-06 01:21:13.199 agent_speech_interrupted
+2025-04-06 01:21:13.199 user_stopped_speaking
+2025-04-06 01:21:13.199 agent_started_speaking
+2025-04-06 01:21:13.199 user_started_speaking
+2025-04-06 01:21:43.495 agent 
+2025-04-06 01:21:13.199 agent_stopped_speaking
+2025-04-06 01:21:13.199 agent_speech_interrupted
+2025-04-06 01:21:43.780 user It sucks.
+
+2025-04-06 01:21:13.199 user_speech_committed
+2025-04-06 01:21:13.199 user_stopped_speaking
+2025-04-06 01:21:13.199 agent_started_speaking
+2025-04-06 01:21:44.617 user All right.
+
+2025-04-06 01:21:13.199 user_speech_committed
+2025-04-06 01:21:51.471 agent  can't identify speakers based on their voice. If you need information or have any other questions, feel free to ask!
+2025-04-06 01:21:13.199 agent_stopped_speaking
+2025-04-06 01:21:13.199 agent_speech_committed
